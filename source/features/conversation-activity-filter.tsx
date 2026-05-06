@@ -232,6 +232,11 @@ async function addWidget(state: State, anchor: HTMLElement): Promise<void> {
 								</ul>
 							</action-list>
 						</div>
+						<div className="Overlay-footer Overlay-footer--divided pl-3 tmp-pl-3 py-2 tmp-py2">
+							<span className="color-fg-muted">
+								Press <kbd>h</kbd> to cycle through filters
+							</span>
+						</div>
 					</div>
 				</anchored-position>
 			</focus-group>
